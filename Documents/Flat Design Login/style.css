@@ -8,7 +8,7 @@ body {
 }
 
 #videobg {
-  fliter: blur(125px);
+  filter: blur(125px);
   -webkit-filter: blur(10px);
   min-width: 100%;
   width: auto;
@@ -29,6 +29,9 @@ body {
   color: #FFF;
   line-height: 10%;
   text-align: center;
+  -webkit-box-shadow: 0px 3px 30px 1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 3px 30px 1px rgba(0,0,0,0.75);
+  box-shadow: 0px 3px 30px 1px rgba(0,0,0,0.75);
 }
 
 .login_box form {
@@ -111,4 +114,9 @@ body {
 
 .r_m_c_b_p{
   padding-top:8px;
+}
+
+a{
+  text-decoration:none;
+  color:#fff;
 }
